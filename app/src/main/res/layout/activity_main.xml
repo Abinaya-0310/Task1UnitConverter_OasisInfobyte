@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:gravity="center"
+        android:text="Unit Converter"
+        android:textAllCaps="true"
+        android:textColor="#E1BDC9"
+        android:textSize="@android:dimen/system_app_widget_background_radius"
+        android:textStyle="bold|italic"
+        tools:ignore="NewApi"
+        tools:targetApi="s" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:backgroundTint="#C15F80"
+        android:text="Kilogram ➡ Gram"
+        android:textAllCaps="false"
+        android:textSize="@android:dimen/app_icon_size"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:backgroundTint="#C15F80"
+        android:text="Gram ➡ Kilogram"
+        android:textStyle="italic"
+        android:textSize="@android:dimen/app_icon_size" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:backgroundTint="#BF416C"
+        android:textStyle="italic"
+        android:text="Centimeter ➡ Meter"
+        android:textSize="@android:dimen/app_icon_size" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:backgroundTint="#BF416C"
+        android:text="Meter ➡ Centimeter"
+        android:textStyle="italic"
+        android:textSize="@android:dimen/app_icon_size" />
+
+</LinearLayout>

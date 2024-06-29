@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".kilogramtogram">
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:gravity="center"
+        android:text="Unit Converter"
+        android:textAllCaps="true"
+        android:textColor="#E1BDC9"
+        android:textSize="@android:dimen/system_app_widget_background_radius"
+        android:textStyle="bold|italic"
+        tools:targetApi="s" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:gravity="center"
+        android:text="Kilogram ➡ Gram"
+        android:textAllCaps="false"
+        android:textColor="#B86FC5"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputkg"
+            android:layout_width="394dp"
+            android:layout_height="74dp"
+            android:layout_weight="1"
+            android:hint="Enter Value in Kilograms:"
+            android:inputType="text"
+            android:textColor="#A53131" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A745B8"
+        android:text="Convert"
+        android:textSize="@android:dimen/app_icon_size"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="#EDE7E7" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="249dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#673AB7"
+        android:text="Meter ➡ Centimeter"
+        android:textColor="@color/white"
+        android:textSize="9pt"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="244dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#673AB7"
+        android:text="Centimeter ➡ Meter"
+        android:textSize="9pt"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="244dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#673AB7"
+        android:text="Gram ➡ Kilogram"
+        android:textSize="9pt"
+        android:textStyle="italic" />
+
+
+</LinearLayout>
